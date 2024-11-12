@@ -10,8 +10,8 @@ from sklearn import metrics
 from scipy.signal import correlate
 
 
-from data import data_provider
-from model import CryptoPulse
+from cryptopulse.data import data_provider
+from cryptopulse.model import CryptoPulse
 
 
 def calculate_metrics(pred, true):

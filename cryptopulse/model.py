@@ -1,8 +1,7 @@
 import torch
 import torch.nn as nn
-
-from layers.emb_layers import InputEmbedding
-from layers.auto_correlation import AutoCorrelationMH
+from cryptopulse.layers.emb_layers import InputEmbedding
+from cryptopulse.layers.auto_correlation import AutoCorrelationMH
 
 
 class CryptoPulse(nn.Module):
