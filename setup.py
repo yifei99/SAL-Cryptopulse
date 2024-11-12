@@ -14,10 +14,11 @@ setup(
     packages=find_packages(),
     install_requires=requirements,  # Load dependencies from requirements.txt
     entry_points={
-        'console_scripts': [
-            'cryptopulse=cryptopulse.main:main',  # Command-line script entry point
-        ],
-    },
+    'console_scripts': [
+        'cryptopulse=cryptopulse.main:main',  # Single run
+        'cryptopulse_batch=cryptopulse.batch_processor:batch_process',  # Batch processing
+    ],
+},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
