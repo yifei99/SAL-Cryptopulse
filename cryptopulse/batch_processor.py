@@ -1,28 +1,43 @@
-from setuptools import setup, find_packages
+import os
+import subprocess
 
-# Read dependencies from requirements.txt
-with open("requirements.txt") as f:
-    requirements = f.read().splitlines()
+def batch_process():
+    # Set PYTHONPATH to current directory so Python recognizes `cryptopulse`
+    os.environ['PYTHONPATH'] = os.getcwd()
 
-setup(
-    name="cryptopulse",
-    version="0.1",
-    description="CryptoPulse: A model for cryptocurrency next day price forecasting using market sentiments and macroeconomic data",
-    author="Amit Kumar, Dr. Taoran Ji",
-    author_email="akumar3@islander.tamucc.edu, taoran.ji@tamucc.edu",
-    url="https://github.com/aamitssharma07/SAL-Cryptopulse.git",
-    packages=find_packages(),
-    install_requires=requirements,  # Load dependencies from requirements.txt
-    entry_points={
-    'console_scripts': [
-        'cryptopulse=cryptopulse.main:main',  # Single run
-        'cryptopulse_batch=cryptopulse.batch_processor:batch_process',  # Batch processing
-    ],
-},
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Apache Software License",
-        "Operating System :: OS Independent",
-    ],
-    python_requires='>=3.6',
-)
+    ob_len = 7
+    pred_len = 1
+    batch_size = 8
+    top20 = [
+        "BTC", "ETH", "USDT", "BNB", "SOL", "STETH", "USDC", "XRP", "DOGE", "TON11419",
+        "ADA", "SHIB", "AVAX", "WSTETH", "WETH", "DOT", "LINK", "WBTC", "TRX", "WTRX"
+    ]
+    exp_name = "cryptopulse_results"
+    log_folder = f"./logs/{exp_name}"
+
+    if not os.path.exists(log_folder):
+        os.makedirs(log_folder)
+
+    for data in top20:
+        data += "-USD"
+        filename = f"{log_folder}/{data}.log"
+        print(f"Processing {data}... Results will be in 'results/{exp_name}'")
+        
+        # Running the cryptopulse.main with required arguments
+        command = [
+            'python', '-u', '-m', 'cryptopulse.main',
+            '--data', data,
+            '--use-cuda',
+            '--exp-name', exp_name,
+            '--ob-len', str(ob_len),
+            '--pred-len', str(pred_len),
+            '--batch-size', str(batch_size),
+            '--learning-rate', '0.0005'
+        ]
+        with open(filename, 'w') as log_file:
+            subprocess.run(command, stdout=log_file)
+
+    print("Script completed.")
+
+if __name__ == "__main__":
+    batch_process()
