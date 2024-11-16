@@ -25,7 +25,7 @@ python -m venv env_crypto
 env_crypto\Scripts\activate
 pip install -e .
 
-🎯 Usage
+## 🎯 Usage
 After installation, you can run predictions directly using the package's command line interface:
 For a single run:
 cryptopulse --data <crypto-ticker-symbol> --train-epochs 10 --batch-size 32
@@ -37,13 +37,13 @@ cryptopulse_batch
 OR
 python -m cryptopulse.batch_processor
 
-📊 Results
+## 📊 Results
 All results are saved in the results/cryptopulse_results directory.
 
-💡 Contributing
-Feel free to use thi research work. Let’s build a smarter CryptoPulse together!
+## 💡 Contributing
+Feel free to use this work for your reaserch. Let’s build a smarter CryptoPulse together!
 
-📝 Citation
+## 📝 Citation
 @article{salcryptopulse2024,
   author = {Amit Kumar and Dr. Taoran Ji},
   title = {CryptoPulse: Short-Term Cryptocurrency Forecasting with Dual-Prediction and Cross-Correlated Market Indicators},
