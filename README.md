@@ -21,6 +21,7 @@ git clone https://github.com/aamitssharma07/SAL-Cryptopulse.git
 cd SAL-Cryptopulse
 
 2.Install dependencies in a virtual environment:
+
 python -m venv env_crypto
 env_crypto\Scripts\activate
 pip install -e .
