@@ -15,6 +15,7 @@ You can install the package directly from GitHub with `pip`:
 pip install git+https://github.com/aamitssharma07/SAL-Cryptopulse.git
 
 Alternatively, you can install it manually:
+
 1.Clone the repo:
 
 git clone https://github.com/aamitssharma07/SAL-Cryptopulse.git
