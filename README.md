@@ -50,7 +50,7 @@ python -m cryptopulse.main --data BTC-USD --train-epochs 10 --batch-size 32
 All results are saved in the results/cryptopulse_results directory.
 
 ## 💡 Contributing
-Feel free to use thi research work. Let’s build a smarter CryptoPulse together!
+Feel free to use this research work. Let’s build a smarter CryptoPulse together!
 
 ## 📝 Citation
 @article{salcryptopulse2024,
