@@ -1,5 +1,6 @@
 import os
 import subprocess
+import sys
 
 def batch_process():
     # Set PYTHONPATH to current directory so Python recognizes `cryptopulse`
@@ -18,14 +19,17 @@ def batch_process():
     if not os.path.exists(log_folder):
         os.makedirs(log_folder)
 
+    # Get the path to the python executable in the virtual environment
+    python_executable = sys.executable
+
     for data in top20:
         data += "-USD"
         filename = f"{log_folder}/{data}.log"
         print(f"Processing {data}... Results will be in 'results/{exp_name}'")
         
-        # Running the cryptopulse.main with required arguments
+        # Running the cryptopulse.main with required arguments, use the python executable from the virtual environment
         command = [
-            'python', '-u', '-m', 'cryptopulse.main',
+            python_executable, '-u', '-m', 'cryptopulse.main',
             '--data', data,
             '--use-cuda',
             '--exp-name', exp_name,

@@ -14,6 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
+.egg-info
 lib/
 lib64/
 parts/
@@ -82,6 +83,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+env_crypto
 
 # PyCharm and other editor configurations
 .spyderproject
