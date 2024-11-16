@@ -31,7 +31,7 @@ env_crypto\Scripts\activate
 pip install -e .
 
 ## 🎯 Usage
-After installation, you can run predictions directly using the package's command line interface if you had installed the  package directly from GitHub with `pip :
+After installation, you can run model directly using the package's command line interface if you had installed the  package directly from GitHub with `pip :
 
 For a single run:
 cryptopulse --data <crypto-ticker-symbol> --train-epochs 10 --batch-size 32
@@ -39,7 +39,7 @@ cryptopulse --data <crypto-ticker-symbol> --train-epochs 10 --batch-size 32
 For batch processing (multiple cryptos at once):
 cryptopulse_batch
 
-Alternatively, you can install it using python command
+Alternatively, you can run the model  using Python command if you had cloned the repo in your local
 For a single run:
 python -m cryptopulse.batch_processor
 
