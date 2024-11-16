@@ -11,8 +11,6 @@ The official implementation of the paper "CryptoPulse: Short-Term Cryptocurrency
 ## ⚙️ Installation
 
 You can install the package directly from GitHub with `pip`:
-
-```bash
 pip install git+https://github.com/aamitssharma07/SAL-Cryptopulse.git
 
 Alternatively, you can install it manually:
