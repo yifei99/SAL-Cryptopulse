@@ -16,13 +16,13 @@ pip install git+https://github.com/aamitssharma07/SAL-Cryptopulse.git
 
 Alternatively, you can install it manually:
 
-1.Clone the repo:
+1. Clone the repo:
 
 git clone https://github.com/aamitssharma07/SAL-Cryptopulse.git
 
 cd SAL-Cryptopulse
 
-2.Install dependencies in a virtual environment:
+2. Install dependencies in a virtual environment:
 
 python -m venv env_crypto
 
