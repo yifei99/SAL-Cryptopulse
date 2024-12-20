@@ -62,7 +62,7 @@ Feel free to use this research work. Let’s build a smarter CryptoPulse togethe
 You can connect with me on LinkedIn: https://www.linkedin.com/in/aamit-datascientist/
 
 ## 📝 Citation
-Update once I get the citation details
+Update once I will get the citation details
 @article{salcryptopulse2024,
 author = {Amit Kumar and Dr. Taoran Ji},
 title = {CryptoPulse: Short-Term Cryptocurrency Forecasting with Dual-Prediction and Cross-Correlated Market Indicators},
