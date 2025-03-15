@@ -2,7 +2,11 @@
 
 The official implementation of the paper "CryptoPulse: Short-Term Cryptocurrency Forecasting with Dual-Prediction and Cross-Correlated Market Indicators". Portions of the code have been adapted from the DLinear implementation.
 
+![model](https://github.com/user-attachments/assets/e09ad3c1-ba77-4f7a-b9da-96ac04a5e1aa)
+
+
 ## 🚀 Features
+
 
 - **Short-Term Forecasting**: Predict cryptocurrency prices with a model designed for short-term predictions.
 - **Batch Processing**: Run predictions for multiple cryptocurrencies at once.
