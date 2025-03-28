@@ -1,6 +1,6 @@
 # Cryptocurrency Dataset for Top 20 Cryptos
 
-This dataset provides daily market data for the top 20 cryptocurrencies, including price, volume, technical indicators, and sentiment derived from Cointelegraph news. It also contains macroeconomic proxy data derived from the 5 cryptocurrencies.
+This dataset provides daily market data for the top 20 cryptocurrencies (by market capitalization at the time of data collection), including price, volume, technical indicators, and sentiment derived from Cointelegraph news. It also contains macroeconomic proxy data derived from the 5 cryptocurrencies.
 
 ## Overview
 
