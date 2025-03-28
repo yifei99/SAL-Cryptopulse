@@ -1,6 +1,6 @@
 # Cryptocurrency Dataset for Top 20 Cryptos
 
-This dataset provides daily market data for the top 20 cryptocurrencies, including price, volume, technical indicators, and sentiment derived from Cointelegraph news. It also contains macroeconomic proxy data derived from the top 5 cryptocurrencies.
+This dataset provides daily market data for the top 20 cryptocurrencies, including price, volume, technical indicators, and sentiment derived from Cointelegraph news. It also contains macroeconomic proxy data derived from the 5 cryptocurrencies.
 
 ## Overview
 
@@ -18,7 +18,7 @@ This dataset provides daily market data for the top 20 cryptocurrencies, includi
 ### Sentiment Metrics
 - positive, negative, neutral
 
-### Macroeconomic Proxy Data (Top 5 Cryptos)
+### Macroeconomic Proxy Data (5 Cryptos)
 - **ETH:** Open_ETH, High_ETH, Low_ETH, Close_ETH, Volume_ETH
 - **USDT:** Open_USDT, High_USDT, Low_USDT, Close_USDT, Volume_USDT
 - **BNB:** Open_BNB, High_BNB, Low_BNB, Close_BNB, Volume_BNB
