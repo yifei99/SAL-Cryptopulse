@@ -4,6 +4,49 @@ The official implementation of the paper "CryptoPulse: Short-Term Cryptocurrency
 
 ![model](https://github.com/user-attachments/assets/e09ad3c1-ba77-4f7a-b9da-96ac04a5e1aa)
 
+## 🏆 Top 20 Cryptocurrencies
+Below is the list of the top 20 cryptocurrencies (by market capitalization at the time of data collection), along with the exact CSV file names (which include the -USD ticker format). The numeric prefix in each CSV file indicates its rank. You can see these file names in the dataset folder:
+
+BTC-USD (1.BTC-USD.csv)
+
+ETH-USD (2.ETH-USD.csv)
+
+USDT-USD (3.USDT-USD.csv)
+
+BNB-USD (4.BNB-USD.csv)
+
+SOL-USD (5.SOL-USD.csv)
+
+STETH-USD (6.STETH-USD.csv)
+
+XRP-USD (7.XRP-USD.csv)
+
+USDC-USD (8.USDC-USD.csv)
+
+DOGE-USD (9.DOGE-USD.csv)
+
+TON11419-USD (10.TON11419-USD.csv)
+
+ADA-USD (11.ADA-USD.csv)
+
+SHIB-USD (12.SHIB-USD.csv)
+
+AVAX-USD (13.AVAX-USD.csv)
+
+WSTETH-USD (14.WSTETH-USD.csv)
+
+WETH-USD (15.WETH-USD.csv)
+
+DOT-USD (16.DOT-USD.csv)
+
+LINK-USD (17.LINK-USD.csv)
+
+WBTC-USD (18.WBTC-USD.csv)
+
+TRX-USD (19.TRX-USD.csv)
+
+WTRX-USD (20.WTRX-USD.csv)
+
 
 ## 🚀 Features
 
