@@ -83,7 +83,8 @@ After installation, you can run the model directly using the package's command l
 
     For a single run:
     
-        cryptopulse --data <crypto-ticker-symbol> --train-epochs 10 --batch-size 32 
+        
+        cryptopulse --data BTC-USD --use-cuda --exp-name cryptopulse_results --ob-len 7 --pred-len 1 --batch-size 8 --learning-rate 0.0005 --train-epochs 50
 
     For batch processing (multiple cryptos at once):
     
@@ -93,7 +94,7 @@ Alternatively, you can run the model using the Python command if you have cloned
 
     For a single run:
     
-        python -m cryptopulse.main --data BTC-USD --train-epochs 10 --batch-size 32
+        python -m cryptopulse.main --data BTC-USD --use-cuda --exp-name cryptopulse_results --ob-len 7 --pred-len 1 --batch-size 8 --learning-rate 0.0005 --train-epochs 50
 
     For batch processing (multiple cryptos at once):
     
