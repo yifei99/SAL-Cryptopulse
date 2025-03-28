@@ -8,9 +8,9 @@ The official implementation of the paper "CryptoPulse: Short-Term Cryptocurrency
 ## 🚀 Features
 
 
-- **Short-Term Forecasting**: Predict cryptocurrency prices with a model designed for short-term predictions.
+- **Short-Term Forecasting**: Predict cryptocurrency prices with a model designed for short-term predictions(next-day).
 - **Batch Processing**: Run predictions for multiple cryptocurrencies at once.
-- **Flexible & Easy to Use**: Just install, run, and watch the results roll in!
+- **Flexible & Easy to Use**: Install, run, and watch the results roll in!
 
 ## ⚙️ Installation
 
