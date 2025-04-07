@@ -105,6 +105,9 @@ checkpoints/
 logs/
 results/
 
+# macOS
+.DS_Store
+
 # Keep the dataset
 # Uncomment or add dataset-related files/directories if necessary
 # dataset/
