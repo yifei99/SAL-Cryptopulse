@@ -74,7 +74,7 @@ nest-asyncio==1.6.0
 networkx==3.3
 notebook==7.2.1
 notebook_shim==0.2.4
-numpy==2.0.1
+numpy
 overrides==7.7.0
 packaging==24.1
 pandas==2.2.2
@@ -109,7 +109,7 @@ rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rpds-py==0.20.0
 scikit-learn==1.5.1
-scipy==1.14.0
+scipy
 Send2Trash==1.8.3
 setuptools==72.2.0
 six==1.16.0
@@ -131,7 +131,7 @@ sympy==1.13.1
 terminado==0.18.1
 threadpoolctl==3.5.0
 tinycss2==1.3.0
-torch==2.5.1
+torch
 tornado==6.4.1
 tqdm==4.66.5
 traitlets==5.14.3
